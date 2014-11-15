@@ -1,0 +1,22 @@
+
+* Introduction
+Updates the dynamic dns entry in third party hosting websites.
+
+* Supported sites
+- noip.com
+
+* Installation
+Once you clone the code, copy the settings_example.py to settings.py. Then,
+change the content to the right settings.
+
+#+BEGIN_SRC python
+# The noip.com host name to update
+HOSTNAME = 'foobar.ddns.net'
+
+# noip.com login credentials
+USERNAME = 'foo'
+PASSWORD = 'secret_password'
+#+END_SRC
+
+* License
+ BSD License
